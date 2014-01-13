@@ -159,13 +159,12 @@ public class AudioActivity extends Activity
 
                 int maxY = bitmap.getHeight();
                 int maxX = bitmap.getWidth();
-                double maxData = getMax(data);
-                int xScale = maxX / data.length;
-                double yScale = maxY / maxData;
+                double xScale = (double)maxX / data.length;
+                double yScale = maxY / getMax(data);
                 for (int i = 0; i < data.length; i++)
                 {
-                    int downy = (int)(maxY - Math.abs(data[i]) * yScale);
-                    int x = i * xScale;
+                    int downy = (int)(maxY - yScale * Math.abs(data[i]));
+                    int x = (int)(i * xScale);
                     canvas.drawLine(x, downy, x, maxY, paint);
                     imageView.invalidate();
                 }

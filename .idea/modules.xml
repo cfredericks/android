@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CameraFx/CameraFx.iml" filepath="$PROJECT_DIR$/CameraFx/CameraFx.iml" />
       <module fileurl="file://$PROJECT_DIR$/CoreyAndroidWorkspace.iml" filepath="$PROJECT_DIR$/CoreyAndroidWorkspace.iml" />
       <module fileurl="file://$PROJECT_DIR$/EmailSms/EmailSms.iml" filepath="$PROJECT_DIR$/EmailSms/EmailSms.iml" />
       <module fileurl="file://$PROJECT_DIR$/GcmDemo/GcmDemo.iml" filepath="$PROJECT_DIR$/GcmDemo/GcmDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SoundStudio/SoundStudio.iml" filepath="$PROJECT_DIR$/SoundStudio/SoundStudio.iml" />
       <module fileurl="file://$PROJECT_DIR$/Util/Util.iml" filepath="$PROJECT_DIR$/Util/Util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android.iml" filepath="$PROJECT_DIR$/android.iml" />
     </modules>
   </component>
 </project>

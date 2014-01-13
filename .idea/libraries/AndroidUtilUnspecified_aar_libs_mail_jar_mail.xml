@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="AndroidUtilUnspecified.aar-libs-mail.jar-mail">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/EmailSms/build/exploded-bundles/AndroidUtilUnspecified.aar/libs/mail.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

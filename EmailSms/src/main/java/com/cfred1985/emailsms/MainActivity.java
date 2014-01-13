@@ -270,7 +270,7 @@ public class MainActivity extends Activity
                     "" + selectedAccount.name);
 
             // If not set, default the forwarding address to the selected account
-            if (settings.ForwardEmailAddress == null)
+            if (settings.ForwardEmailAddress == null || settings.ForwardEmailAddress.length() == 0)
             {
                 settings.ForwardEmailAddress = selectedAccount.name;
             }
@@ -284,8 +284,8 @@ public class MainActivity extends Activity
                     {
                         synchronized (settingsLock)
                         {
-                            Log.d(TAG, "Got OAuth2 token");
                             settings.OAuthToken = bundle.getString(AccountManager.KEY_AUTHTOKEN);
+                            Log.d(TAG, "Got OAuth2 token: " + settings.OAuthToken);
                             PublishSettings();
                         }
                     }

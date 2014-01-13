@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Camera FX</string>
+    <string name="action_settings">Settings</string>
+    <string name="switch_cam">Switch Camera</string>
+    <string name="camera_alert">Device has only one camera!</string>
+
+</resources>
