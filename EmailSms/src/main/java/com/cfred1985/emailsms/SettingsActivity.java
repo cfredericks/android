@@ -223,13 +223,13 @@ public class SettingsActivity extends Activity
         {
             if (loginResult)
             {
-                Toast.makeText(getApplicationContext(), "Login success!", Toast.LENGTH_SHORT);
+                Toast.makeText(getApplicationContext(), "Login success!", Toast.LENGTH_SHORT).show();
                 buttonLogin.setText(getString(R.string.logout));
                 SetLoginBoxesEnabled(false);
             }
             else
             {
-                Toast.makeText(getApplicationContext(), "Login failure!", Toast.LENGTH_SHORT);
+                Toast.makeText(getApplicationContext(), "Login failure!", Toast.LENGTH_SHORT).show();
                 SetLoginBoxesEnabled(true);
             }
         }

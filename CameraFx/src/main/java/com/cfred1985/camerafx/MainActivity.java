@@ -25,6 +25,8 @@ import java.util.List;
 
 public class MainActivity extends Activity
 {
+    private static final String TAG = "MainActivity";
+
     private Preview mPreview;
     Camera mCamera;
     int numberOfCameras;
@@ -50,6 +52,7 @@ public class MainActivity extends Activity
         // Find the total number of cameras available
         numberOfCameras = Camera.getNumberOfCameras();
 
+        Log.d(TAG, "Found " + numberOfCameras + " cameras");
         // Find the ID of the default camera
         CameraInfo cameraInfo = new CameraInfo();
         for (int i = 0; i < numberOfCameras; i++)
@@ -326,5 +329,4 @@ class Preview extends ViewGroup implements SurfaceHolder.Callback
         mCamera.setParameters(parameters);
         mCamera.startPreview();
     }
-
 }

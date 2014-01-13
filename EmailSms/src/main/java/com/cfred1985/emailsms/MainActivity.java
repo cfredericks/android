@@ -235,7 +235,7 @@ public class MainActivity extends Activity
         {
             lblNotifications.setTextColor(Color.RED);
             lblNotifications.setText("No account selected for forwarding emails!");
-            Toast.makeText(context, "Please select an account in Settings", Toast.LENGTH_SHORT);
+            Toast.makeText(context, "Please select an account in Settings", Toast.LENGTH_SHORT).show();
             buttonForward.setEnabled(false);
             return;
         }
