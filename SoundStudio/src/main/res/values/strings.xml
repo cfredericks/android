@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sound Studio</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_audio">Audio</string>
+    <string name="title_activity_mag_stripe">MagStripe</string>
+    <string name="title_activity_usb">USB</string>
+
+</resources>
