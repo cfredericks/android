@@ -1,1 +1,1 @@
-include ':Util', ':GcmDemo', ':EmailSms'
+include ':Util', ':GcmDemo', ':EmailSms', ':SoundStudio'
